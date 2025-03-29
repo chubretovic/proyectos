@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: lightblue;
+                color: white;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background: black;
+                padding: 20px;
+            }
+            .feature-box {
+                background: white;
+                color: gray;
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+            }
+            .feature-box div {
+                margin: 10px;
+                width: 100%;
+            }
+            .feature-box.sales div {
+                background: lightgray;
+            }
+            .feature-box.closeouts div {
+                background: red;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline-block;
+                margin-right: 20px;
+                color: white;
+                border-radius: 3px;
+                padding: 2px;
+                margin-left: 20px;
+            }
+            li:hover {
+                background: gray;
+            }
+            li a {
+                text-decoration: none;
+                color: white;
+            }
+            li:first-child {
+                margin-left: 0;
+            }
+            footer {
+                background: black;
+                padding: 10px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Contact</h1>
+        </header>
+        <section class="feature-box sales">
+            <div>Section a</div>
+            <div>Section b</div>
+            <div>Section c</div>
+        </section>
+        <section class="feature-box closeouts">
+            <div>Section d</div>
+            <div>Section e</div>
+        </section>
+        <footer>footer</footer>
+    </body>      
+</html>
