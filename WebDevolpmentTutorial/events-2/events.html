@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Events</title>
+        <style>
+            body {
+                font-family: "helvetica neue", helvetica, arial, sans-serif;
+                color: #666;
+                padding: 0 20%;
+            }
+            li input {
+                display: none;
+            }
+            li.edit span {
+                display: none;
+            }
+            li.edit input {
+                display: initial;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Javascript Events</h1>
+        </header>
+        <main>
+            <ul id="checklist">
+                <li>
+                    <span>Apples</span>
+                    <input value="Apples" />
+                </li>
+                <li><span>Oranges</span>
+                    <input value="Oranges" />
+                </li>
+                <li><span>Bananas</span>
+                    <input value="Bananas" />
+                </li>
+            </ul>
+        </main>
+        <script src="events.js"></script>
+    </body>
+</html>
